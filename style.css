@@ -39,13 +39,33 @@ html {
     flex-direction: column;
   }
 
-  .panel1 { background-image:url(./images/one.jpeg); }
-  .panel2 { background-image:url(./images/two.jpeg); }
-  .panel3 { background-image:url(./images/three.jpeg); }
-  .panel4 { background-image:url(./images/four.jpeg); }
-  .panel5 { background-image:url(./images/five.jpeg); }
+  .panel1 { background-image:url(./images/one.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+.panel2 { background-image:url(./images/two.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;}
+.panel3 { background-image:url(./images/three.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;}
+.panel4 { background-image:url(./images/four.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+.panel5 { background-image:url(./images/five.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
 
-  /* Flex Items */
+  
   .panel > * {
     margin: 0;
     width: 100%;
