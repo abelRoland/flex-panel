@@ -1,9 +1,11 @@
 'use strict';
 console.log('--- loading handler: _');
 
-const _ = (event) => {
+//Panel open handler
 
-};
+const toggleOpen = (event) => {
+    event.target.classlist.toggle('open')
+}
 
 /* handlers define user interactions
 
