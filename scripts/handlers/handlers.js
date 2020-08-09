@@ -4,7 +4,8 @@ console.log('--- loading handler: _');
 //Panel open handler
 
 const toggleOpen = (event) => {
-    event.target.classlist.toggle('open')
+  console.log(event)
+  event.currentTarget.classList.toggle('open')
 }
 
 /* handlers define user interactions
@@ -19,3 +20,7 @@ const toggleOpen = (event) => {
   they log any important information for developers
 
 */
+const toggleActive = (event) =>{
+  event.target.classList.toggle('open-active')
+}
+
