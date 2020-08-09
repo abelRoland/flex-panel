@@ -21,6 +21,7 @@ const toggleOpen = (event) => {
 
 */
 const toggleActive = (event) =>{
+  console.log(event)
   event.target.classList.toggle('open-active')
 }
 
